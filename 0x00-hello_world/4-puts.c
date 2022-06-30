@@ -1,8 +1,12 @@
 #include <stdio.h>
+/**
+ * main - Entry point
+ * Description: "Example program using the puts function"
+ * Return: Always 0 (Success)
+ */
 
-int main (void) {
-  char str[] = "Programming is like building a multilingual puzzle\n";
-  
-  puts(str);
-  return 0;
+int main(void)
+{
+puts("Programming is like building a multilingual puzzle\n");
+return (0);
 }
