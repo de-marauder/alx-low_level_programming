@@ -2,7 +2,7 @@
 
 /**
   *main - prints alphabets in reverse
-  *return: always zero
+  *Return: always zero
   *
   */
 
