@@ -7,14 +7,15 @@
 
 int main(){
 
-char al = 'a';
+  char n, al;
+    n = al = 'a';
 
-while (al < n+25)
+while (al < n+26)
 {
 putchar(al);
-putchar("\n")
+putchar('\n');
+ al++;
 }
 
-
-return (0)
+ return (0);
 }
