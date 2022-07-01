@@ -11,13 +11,13 @@ int main(void)
 char n, al;
 n = al = 'a';
 
-while (al < n + 26)
+while (n + 26 > al)
 {
 if (al != 101 && al != 113)
 {
 putchar(al);
 }
- al++;
+al++;
 }
 putchar('\n');
 

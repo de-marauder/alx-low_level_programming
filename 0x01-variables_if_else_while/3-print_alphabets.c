@@ -1,27 +1,28 @@
 #include <stdio.h>
 
 /**
-  *main - Entry point
+  *main - prints a-z then A-Z on the same line
   *Return: Zero always
   */
 
-int main(){
+int main(void)
+{
 
-  char n, al, AL;
-    n = al = 'a';
-    AL = 'A';
-while (al < n+26)
+char n, al, AL;
+n = al = 'a';
+AL = 'A';
+while (n + 26 > al)
 {
 putchar(al);
 al++;
 }
 
-    n = AL;
-    while (AL < n + 26)
+n = AL;
+while (n + 26 > AL)
 {
-  putchar(AL);
-  AL++;
- }
-    putchar('\n');
- return (0);
+putchar(AL);
+AL++;
+}
+putchar('\n');
+return (0);
 }
