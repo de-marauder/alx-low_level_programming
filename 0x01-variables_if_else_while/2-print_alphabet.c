@@ -5,17 +5,18 @@
   *Return: Zero always
   */
 
-int main(){
+int main(void)
+{
 
-  char n, al;
-    n = al = 'a';
+char n, al;
+n = al = 'a';
 
-while (al < n+26)
+while (n + 26 > al)
 {
 putchar(al);
-putchar('\n');
- al++;
-}
 
- return (0);
+al++;
+}
+putchar('\n')
+return (0);
 }
