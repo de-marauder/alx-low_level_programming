@@ -23,7 +23,7 @@ if (tens != '8' || ones != '9') /*print commas*/
 putchar(',');
 putchar(' ');
 }
-
+}
 }
 putchar('\n');
 return (0);
