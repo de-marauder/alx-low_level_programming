@@ -53,3 +53,12 @@ int _isalpha(int c);
  */
 
 int print_sign(int n);
+
+
+/**
+ * _abs - Calutes the absolute value of a number
+ * @n: The number to be used for calculation
+ * Return: Absolute value of n
+ */
+
+int _abs(int n);
