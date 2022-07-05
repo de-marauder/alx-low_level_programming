@@ -44,3 +44,12 @@ int _islower(int c);
  */
 
 int _isalpha(int c);
+
+
+/**
+ * print_sign - prints '+' if positive, '-' if negative and '0' if zero
+ * @n: The number to be checked
+ * Return: 1 if n > 0, 0 if n == 0, -1 if n < 0
+ */
+
+int print_sign(int n);
