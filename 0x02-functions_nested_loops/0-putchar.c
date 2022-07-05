@@ -1,12 +1,18 @@
-#include <stdio.h>
+#include "main.h"
 
-/*
- * main - Prints "_putchar"
- * Return: always zero
- */
+/**
+  * main - Prints "_putchar"
+  * Return: always zero
+  */
 
 int main(void)
 {
-printf("_putchar\n");
+char putchar[9] = "_putchar";
+for (int i = 0; i < 9; i++)
+{
+_putchar(putchar[i]);
+}
+_putchar('\n');
+
 return (0);
 }
