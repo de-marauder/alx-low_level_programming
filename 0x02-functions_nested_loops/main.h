@@ -18,3 +18,11 @@ int _putchar(char c);
  */
 
 void print_alphabet(void);
+
+
+/**
+ * print_alphabet_x10 - prints the alphabets 10 times each on a new line
+ * Return: void always
+ */
+
+void print_alphabet_x10(void);
