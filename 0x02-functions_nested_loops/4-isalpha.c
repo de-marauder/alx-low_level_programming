@@ -13,7 +13,7 @@ char a = 'a';
 char Z = 'Z';
 char z = 'z';
 
-if ((c > A - 1 && c < Z + 1) || (c > a -1 && c < z + 1))
+if ((c > A - 1 && c < Z + 1) || (c > a - 1 && c < z + 1))
 {
 return (1);
 }
