@@ -25,6 +25,7 @@ _putchar(h_units + '0');
 _putchar(':');
 _putchar(m_tens + '0');
 _putchar(m_units + '0');
+_putchar('\n');
 
 if (h_tens == 2 && h_units == 3 && m_tens == 5 && m_units == 9)
 {
