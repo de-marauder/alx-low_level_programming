@@ -62,3 +62,12 @@ int print_sign(int n);
  */
 
 int _abs(int n);
+
+
+/**
+ * print_last_digit - prints last digit of a number
+ * @n: Number to be used
+ * Return: Value of the last digit of @n
+ */
+
+int print_last_digit(int n);
