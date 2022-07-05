@@ -71,3 +71,11 @@ int _abs(int n);
  */
 
 int print_last_digit(int n);
+
+
+/**
+ * jack_bauer - prints the time from 00:00 to 23:59
+ * Return: Nothing
+ */
+
+void jack_bauer(void);
