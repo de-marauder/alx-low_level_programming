@@ -14,7 +14,7 @@ for (row_count = 0; row_count < 10; row_count++)
 {
 for (col_count = 0; col_count < 10; col_count++)
 {
-_putchar(row_count * col_count);
+_putchar((row_count * col_count) + '0');
 if (col_count != 9)
 {
 _putchar(',');
