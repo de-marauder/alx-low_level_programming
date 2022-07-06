@@ -106,3 +106,11 @@ int add(int a, int b);
  */
 
 void print_to_98(int n);
+
+
+/**
+ * print_times_table - prints the times table starting with zero
+ * Return: Nothing
+ */
+
+void print_times_table(void);
