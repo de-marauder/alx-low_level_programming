@@ -9,7 +9,7 @@ int main(void)
 {
 int a = 1;
 int b = 2;
-long c; /* Next number */
+unsigned long c; /* Next number */
 int i; /* Loop variable */
 
 printf("%d, ", a);
@@ -19,7 +19,7 @@ for (i = 2; i < 50; i++)
 {
 c = a + b;
 
-printf("%ld, ", c);
+printf("%lu, ", c);
 
 a = b;
 b = c;
