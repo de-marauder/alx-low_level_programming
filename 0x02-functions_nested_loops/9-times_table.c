@@ -19,7 +19,6 @@ if (product > 9)
 {
 if (col_count != 0)
 {
-
 _putchar(',');
 _putchar(' ');
 
@@ -28,7 +27,8 @@ _putchar(product % 10 + '0');
 
 }
 }
-else {
+else
+{
 if (col_count != 0)
 {
 
@@ -36,6 +36,9 @@ _putchar(',');
 _putchar(' ');
 _putchar(' ');
 
+_putchar(product + '0');
+} else
+{
 _putchar(product + '0');
 }
 }
