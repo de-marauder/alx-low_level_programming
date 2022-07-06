@@ -10,9 +10,9 @@
 int add(int a, int b)
 {
   int sum = a + b;
-  int sum_copy = sum;
+  /*  int sum_copy = sum;
   int counter = 0;
-
+  */
   write(1, &sum, 4);
   /* count digits in sum */
   /* while (sum_copy / 10 > 0)
