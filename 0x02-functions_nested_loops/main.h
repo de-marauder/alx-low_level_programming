@@ -98,3 +98,11 @@ void times_table(void);
 
 int add(int a, int b);
 
+
+/**
+ * print_to_98 - prints a sequence of consecutive integers from @n to 98
+ * @n: a number
+ * Return: Nothing
+ */
+
+void print_to_98(int n);
