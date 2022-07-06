@@ -8,25 +8,18 @@
 int main(void)
 {
 long a = 1;
-long b = 2;
+long b = 1;
 unsigned long c; /* Next number */
 int i; /* Loop variable */
-
 long overflow, a_head, a_tail, b_head, b_tail, sum_head, sum_tail;
 
 printf("%ld, ", a);
-printf("%ld, ", b);
 
-for (i = 2; i < 93; i++)
+for (i = 1; i < 92; i++)
 {
 c = a + b;
 
-printf("%lu", c);
-if (i != 97)
-{
-putchar(',');
-putchar(' ');
-}
+printf("%lu, ", c);
 
 a = b;
 b = c;
@@ -42,8 +35,8 @@ b_tail = b % 1000000000;
 for (; i < 99; i++)
 {
 overflow = (a_tail + b_tail) / 1000000000;
-sum_tail = (a_tail + b_tail) - (1000000000 * overflow);
-sum_head = (a_head + b_head) + overflow;
+sum_tail = (a_tail + b_tail) -(1000000000 * overflow);
+sum_head = (a_head + b_head) +overflow;
 
 printf("%lu%lu", sum_head, sum_tail);
 if (i != 98)
