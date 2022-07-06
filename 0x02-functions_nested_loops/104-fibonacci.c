@@ -9,7 +9,7 @@ int main(void)
 {
 long a = 1;
 long b = 2;
-long c; /* Next number */
+unsigned long c; /* Next number */
 int i; /* Loop variable */
 
 printf("%ld, ", a);
@@ -19,7 +19,7 @@ for (i = 2; i < 98; i++)
 {
 c = a + b;
 
-printf("%ld", c);
+printf("%lud", c);
 if (i != 97)
 {
 putchar(',');
