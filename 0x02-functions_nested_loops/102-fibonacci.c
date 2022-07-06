@@ -19,7 +19,12 @@ for (i = 2; i < 50; i++)
 {
 c = a + b;
 
-printf("%ld, ", c);
+printf("%ld", c);
+if (i != 49)
+{
+putchar(',');
+putchar(' ');
+}
 
 a = b;
 b = c;
