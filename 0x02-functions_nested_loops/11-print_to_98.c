@@ -61,7 +61,7 @@ void _put_num(int i)
 
 void print_to_98(int n)
 {
-  let i;
+  int i;
   if (n > 98)
     {
       for (i = n; n >= 98; i--)
