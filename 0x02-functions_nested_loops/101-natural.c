@@ -17,17 +17,18 @@ if (i % 3 == 0 || i % 5 == 0)
 sum += i;
 }
 }
-printf("%d", sum);
+printf("%d\n", sum);
 return (sum);
 }
 
 
 /**
  * main - return result of natural
- * Return - result of natural function
+ * Return: result of natural function
  */
 
 int main(void)
 {
-return (natural());
+natural();  
+return (SUCCESS);
 }
