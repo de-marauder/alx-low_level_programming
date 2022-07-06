@@ -1,14 +1,13 @@
 #include "main.h"
-#include <math.h>
 
 /**
- * pow - calculates the exponent of @a to @b
+ * _expo - calculates the exponent of @a to @b
  * @a: a number
  * @b: a number
  * Return: exponent of @a to @b
  */
-/*
-int pow(int a, int b)
+
+int _expo(int a, int b)
 {
   int result = 1;
   int i;
@@ -19,7 +18,7 @@ int pow(int a, int b)
   
   return (result);
 }
-*/
+
 
 /**
  * add - prints the sum of two numbers
@@ -44,7 +43,7 @@ int add(int a, int b)
  /* Print sum */
   for (i = counter + 1; i > 0; i--)
     {
-      _putchar((sum / pow(10, counter)) + '0');
+      _putchar((sum / _expo(10, counter)) + '0');
     }
   _putchar(sum % 10 + '0');
   _putchar('\n');
