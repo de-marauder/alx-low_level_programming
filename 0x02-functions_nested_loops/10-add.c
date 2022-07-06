@@ -1,5 +1,5 @@
 #include "main.h"
-#include <unistd.h>
+#include <math.h>
 
 /**
  * pow - calculates the exponent of @a to @b
@@ -7,19 +7,19 @@
  * @b: a number
  * Return: exponent of @a to @b
  */
-
+/*
 int pow(int a, int b)
 {
   int result = 1;
   int i;
   for (i = 0; i < b; i++)
     {
-      result *= a
+      result *= a;
     }
   
-  return (result)
+  return (result);
 }
-
+*/
 
 /**
  * add - prints the sum of two numbers
@@ -33,7 +33,7 @@ int add(int a, int b)
   int sum = a + b;
   int sum_copy = sum;
   int counter = 0;
-
+  int i;
   /* count digits in sum */
  while (sum_copy / 10 > 0)
     {
@@ -41,8 +41,7 @@ int add(int a, int b)
       counter += 1;
     }
 
-  /* Print sum */
- int i;
+ /* Print sum */
   for (i = counter + 1; i > 0; i--)
     {
       _putchar((sum / pow(10, counter)) + '0');
