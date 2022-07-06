@@ -37,7 +37,8 @@ _putchar(' ');
 _putchar(' ');
 
 _putchar(product + '0');
-} else
+}
+else
 {
 _putchar(product + '0');
 }
