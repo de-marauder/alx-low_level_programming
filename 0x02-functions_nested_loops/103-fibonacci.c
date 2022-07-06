@@ -24,6 +24,6 @@ sum += c;
 a = b;
 b = c;
 }
-printf("\n");
+printf("%ld\n", sum);
 return (0);
 }
