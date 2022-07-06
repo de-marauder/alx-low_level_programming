@@ -12,10 +12,12 @@ long b = 2;
 unsigned long c; /* Next number */
 int i; /* Loop variable */
 
+long overflow, a_head, a_tail, b_head, b_tail, sum_head, sum_tail;
+
 printf("%ld, ", a);
 printf("%ld, ", b);
 
-for (i = 2; i < 98; i++)
+for (i = 2; i < 93; i++)
 {
 c = a + b;
 
@@ -29,6 +31,27 @@ putchar(' ');
 a = b;
 b = c;
 }
+
+/* for longer numbers */
+for (; i < 99; i++)
+{
+overflow = (a_tail + b_tail) / 1000000000;
+sum_tail = (a_tail + b_tail) - (1000000000 * overflow);
+sum_head = (a_head + b_head) + overflow;
+
+printf("%lu%lu", sum_head, sum_tail);
+if (i != 98)
+{
+putchar(',');
+putchar(' ');
+}
+
+a_head = b_head;
+a_tail = b_tail;
+b_head = sum_head;
+b_tail = sum_tail;
+}
+
 printf("\n");
 return (0);
 }
