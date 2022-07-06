@@ -115,3 +115,11 @@ void print_to_98(int n);
  */
 
 void print_times_table(int n);
+
+
+/**
+ * natural - calculates the sum of multiples under 1024
+ * Return: Sum of multiples of 3 and 5 under 1024
+ */
+
+int natural(void);
