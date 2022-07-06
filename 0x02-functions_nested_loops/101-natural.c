@@ -29,6 +29,6 @@ return (sum);
 
 int main(void)
 {
-natural();  
+natural(); 
 return (0);
 }
