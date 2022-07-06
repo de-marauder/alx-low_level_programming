@@ -19,7 +19,7 @@ for (i = 2; i < 98; i++)
 {
 c = a + b;
 
-printf("%lud", c);
+printf("%lu", c);
 if (i != 97)
 {
 putchar(',');
