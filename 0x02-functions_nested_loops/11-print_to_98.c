@@ -45,7 +45,7 @@ void _put_num(int i)
       count += 1;
     }
 
-  for (j = 0; j < count; j++)
+  for (j = count - 1; j > 0; j--)
     {
       _putchar(i / _expo(10, j) + '0');
     }
