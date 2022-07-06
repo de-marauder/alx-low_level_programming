@@ -20,3 +20,14 @@ sum += i;
 printf("%d", sum);
 return (sum);
 }
+
+
+/**
+ * main - return result of natural
+ * Return - result of natural function
+ */
+
+int main(void)
+{
+return (natural());
+}
