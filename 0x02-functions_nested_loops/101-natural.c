@@ -30,5 +30,5 @@ return (sum);
 int main(void)
 {
 natural();  
-return (SUCCESS);
+return (EXIT_SUCCESS);
 }
