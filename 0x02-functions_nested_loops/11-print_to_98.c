@@ -41,7 +41,7 @@ void _put_num(int i)
     }
   while (i_copy / 10 > 0)
     {
-      i_copy /= i_copy / 10;
+      i_copy /= 10;
       count += 1;
     }
 
