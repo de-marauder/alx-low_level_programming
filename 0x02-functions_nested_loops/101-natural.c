@@ -24,11 +24,11 @@ return (sum);
 
 /**
  * main - return result of natural
- * Return: result of natural function
+ * Return: zero always
  */
 
 int main(void)
 {
 natural();  
-return (EXIT_SUCCESS);
+return (0);
 }
