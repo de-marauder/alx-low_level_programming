@@ -12,8 +12,8 @@ long b = 2;
 long c; /* Next number */
 int i; /* Loop variable */
 
-printf("%d, ", a);
-printf("%d, ", b);
+printf("%ld, ", a);
+printf("%ld, ", b);
 
 for (i = 2; i < 50; i++)
 {
