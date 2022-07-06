@@ -109,8 +109,9 @@ void print_to_98(int n);
 
 
 /**
- * print_times_table - prints the times table starting with zero
+ * print_times_table - prints the times table starting with zero to @n
+ * @n: limit of table
  * Return: Nothing
  */
 
-void print_times_table(void);
+void print_times_table(int n);
