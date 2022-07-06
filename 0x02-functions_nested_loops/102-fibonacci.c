@@ -23,5 +23,6 @@ c = a + b;
 a = b;
 b = c;
 }
-printf('\n');
+printf("\n");
+return (0);
 }
