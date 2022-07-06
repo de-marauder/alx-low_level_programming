@@ -19,7 +19,7 @@ for (i = 2; i < 50; i++)
 {
 c = a + b;
 
-printf("%l, ", c);
+printf("%ld, ", c);
 
 a = b;
 b = c;
