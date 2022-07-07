@@ -27,3 +27,13 @@ largest = c;
 
 return (largest);
 }
+
+/**
+ * main - calls largest number
+ * Return: zero
+ */
+
+int main(void)
+{
+largest_number();
+}
