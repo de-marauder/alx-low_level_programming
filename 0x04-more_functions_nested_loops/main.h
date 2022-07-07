@@ -2,6 +2,15 @@
 #define MAIN_H
 
 /**
+ * print_square - prints a square
+ * @size: size of square
+ * Return: void
+ */
+
+void print_square(int size);
+
+
+/**
  * print_diagonal - draw a diagonal line on the termanal
  * @n: number of lines to span of terminal
  * Return: void
