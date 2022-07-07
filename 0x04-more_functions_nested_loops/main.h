@@ -2,6 +2,13 @@
 #define MAIN_H
 
 /**
+ * print_most_numbers - print 0-9 without 2 and 4
+ * Return: Nothing (void)
+ */
+
+void print_numbers(void);
+
+/**
  * _putchar - writes the character c to stdout
  * @c: The character to print
  *
