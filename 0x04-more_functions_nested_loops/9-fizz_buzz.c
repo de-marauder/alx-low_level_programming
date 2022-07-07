@@ -85,7 +85,10 @@ else
 {
 _putchar(i + '0');
 }
+if (i != 100)
+{
 _putchar(' ');
+}
 }
 _putchar('\n');
 return (0);
