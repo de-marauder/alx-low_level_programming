@@ -22,7 +22,7 @@ _putchar('F');
 _putchar('i');
 _putchar('z');
 _putchar('z');
-_putchar('b');
+_putchar('B');
 _putchar('u');
 _putchar('z');
 _putchar('z');
