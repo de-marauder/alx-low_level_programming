@@ -2,6 +2,15 @@
 #define MAIN_H
 
 /**
+ * print_diagonal - draw a diagonal line on the termanal
+ * @n: number of lines to span of terminal
+ * Return: void
+ */
+
+void print_diagonal(int n);
+
+
+/**
  * print_line - print a line across the terminal
  * @n: number of times _ is printed
  * Return: void
