@@ -2,6 +2,14 @@
 #define MAIN_H
 
 /**
+ * more_numbers - prints 1-14 10 times
+ * Return: void
+ */
+
+void more_numbers(void);
+
+
+/**
  * print_most_numbers - print 0-9 without 2 and 4
  * Return: Nothing (void)
  */
