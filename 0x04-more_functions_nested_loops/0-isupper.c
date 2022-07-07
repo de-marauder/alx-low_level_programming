@@ -1,7 +1,7 @@
-
+#include "main.h"
 /**
  * _isupper - checks if alphabet is upper case
- * @c: character to check 
+ * @c: character to check
  * Return: 1 if true and 0 if false
  */
 
