@@ -27,4 +27,17 @@ int largest_number(int a, int b, int c);
 
 void print_remaining_days(int month, int day, int year);
 
+
+/**
+ * convert_day - convert date to number of days using month and day
+ * left in the year, taking leap years into account
+ * @month: month in number format
+ * @day: day of month
+ * Return: integer day of the year
+ */
+
+int convert_day(int month, int day);
+
+
 #endif /* MAIN_H */
+
