@@ -2,6 +2,14 @@
 #define MAIN_H
 
 /**
+ * print_triangle - prints triangles
+ * @size: size of triangle
+ * Return: void
+ */
+
+void print_triangle(int size);
+
+/**
  * print_square - prints a square
  * @size: size of square
  * Return: void
