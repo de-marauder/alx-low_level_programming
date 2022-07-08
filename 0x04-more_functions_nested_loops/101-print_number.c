@@ -10,13 +10,13 @@
 
 int _expo(int a, int b)
 {
-int i; 
+int i;
 int result = 1;
 for (i = 0; i < b; i++)
 {
 result *= a;
 }
-return result;
+return (result);
 }
 
 
@@ -53,7 +53,7 @@ for (i = counter; i > 0; i--)
 _putchar((num_2 / _expo(10, i)) + '0');
 num_2 %= _expo(10, i);
 }
-  
+
 _putchar((n % 10) + '0');
 
 }
