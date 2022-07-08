@@ -62,6 +62,16 @@ int _putchar(char c);
 
 
 /**
+ * print_numbers - prints number
+ * @n: number to print
+ * Return: Nothing (void)
+ */
+
+void print_number(int n);
+
+
+
+/**
  * print_numbers - prints numbers from 0 - 9
  * Return: Nothing (void)
  */
