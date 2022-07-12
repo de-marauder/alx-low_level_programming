@@ -3,6 +3,24 @@
 
 
 /**
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
+ */
+
+int _putchar(char c);
+
+/**
+ * _strlen - calculates the length of a string
+ * @s: string
+ * Return: integer - length of string
+ */
+
+int _strlen(char *s);
+
+
+/**
  * swap_int - swaps the values of two integers
  * @a: integer
  * @b: integer
