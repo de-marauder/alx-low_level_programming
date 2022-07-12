@@ -10,14 +10,14 @@ void _puts(char *str)
 {
 int i;
 int counter = 0;
-while (*(s + counter) != '\0')
+while (*(str + counter) != '\0')
 {
 counter++;
 }
 
 for (i = 0; i < counter; i++)
 {
-_putchar(*(s + i));
+_putchar(*(str + i));
 }
 _putchar('\n');
 }
