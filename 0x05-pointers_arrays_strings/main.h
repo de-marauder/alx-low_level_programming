@@ -3,6 +3,15 @@
 
 
 /**
+ * rev_string - a function that reverses a string
+ * @s: string
+ * Return: void
+ */
+
+void rev_string(char *s);
+
+
+/**
  * _puts - prints a string to stdout
  * @str: string
  * Return: void
@@ -13,11 +22,11 @@ void _puts(char *str);
 
 /**
  * print_rev - prints a string to stdout in revers
- * @str: string
+ * @s: string
  * Return: void
  */
 
-void print_rev(char *str);
+void print_rev(char *s);
 
 /**
  * _putchar - writes the character c to stdout
