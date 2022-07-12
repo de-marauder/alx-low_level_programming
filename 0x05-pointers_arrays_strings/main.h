@@ -10,6 +10,15 @@
 
 void _puts(char *str);
 
+
+/**
+ * print_rev - prints a string to stdout in revers
+ * @str: string
+ * Return: void
+ */
+
+void print_rev(char *str);
+
 /**
  * _putchar - writes the character c to stdout
  * @c: The character to print
