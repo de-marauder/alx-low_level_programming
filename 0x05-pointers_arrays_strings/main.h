@@ -3,6 +3,14 @@
 
 
 /**
+ * _puts - prints a string to stdout
+ * @str: string
+ * Return: void
+ */
+
+void _puts(char *str);
+
+/**
  * _putchar - writes the character c to stdout
  * @c: The character to print
  * Return: On success 1.
