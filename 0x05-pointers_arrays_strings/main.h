@@ -3,6 +3,16 @@
 
 
 /**
+ * _strcpy - copy a string to a different location
+ * @dest: destination variable
+ * @src: string to be copied
+ * Return: string
+ */
+
+char *_strcpy(char *dest, char *src);
+
+
+/**
  * print_array - print first n-terms of an array
  * @a: pointer to string
  * @n: number
