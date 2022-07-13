@@ -3,6 +3,16 @@
 
 
 /**
+ * print_array - print first n-terms of an array
+ * @a: pointer to string
+ * @n: number
+ * Return: void
+ */
+
+void print_array(int *a, int n);
+
+
+/**
  * puts_half - prints last half of a string
  * @str: string
  * Return: void
