@@ -21,7 +21,7 @@ counter++;
 
 if (counter % 2 != 0)
 {
-mid_index = (counter - 1) / 2;
+mid_index = ((counter - 1) / 2) + 1;
 }
 else
 {
