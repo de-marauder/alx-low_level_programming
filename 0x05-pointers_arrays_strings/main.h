@@ -3,6 +3,15 @@
 
 
 /**
+ * puts2 - prints items of a string with sn even index
+ * @str: string
+ * Return: void
+ */
+
+void puts2(char *str);
+
+
+/**
  * rev_string - a function that reverses a string
  * @s: string
  * Return: void
