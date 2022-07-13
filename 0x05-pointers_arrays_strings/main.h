@@ -2,6 +2,16 @@
 #define MAIN_H
 
 
+
+/**
+ * _atoi - return first string of integers in a string as integers
+ * @s: string
+ * Return: integer in string or 0 if there are no integers
+ */
+
+int _atoi(char *s);
+
+
 /**
  * _strcpy - copy a string to a different location
  * @dest: destination variable
