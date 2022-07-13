@@ -3,6 +3,15 @@
 
 
 /**
+ * puts_half - prints last half of a string
+ * @str: string
+ * Return: void
+ */
+
+void puts_half(char *str);
+
+
+/**
  * puts2 - prints items of a string with sn even index
  * @str: string
  * Return: void
