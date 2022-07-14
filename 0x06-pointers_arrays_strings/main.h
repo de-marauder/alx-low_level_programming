@@ -3,6 +3,15 @@
 
 
 /**
+ * cap_string - capitalizes first leter of every word
+ * @str: string
+ * Return: capitalized string
+ */
+
+char *cap_string(char *str);
+
+
+/**
  * string_toupper - converts lower case characters to upper case characters
  * @str: string
  * Return: upper case string
