@@ -16,6 +16,7 @@ char numbers[] = {'4', '4', '3', '3', '0', '0', '7', '7', '1', '1'};
 
 while (str[str_len] != '\0')
 {
+i = str_len;
 str_len++;
 for (j = 0; j < 10; j++)
 {
