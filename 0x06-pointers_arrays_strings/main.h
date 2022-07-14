@@ -3,6 +3,14 @@
 
 
 /**
+ * string_toupper - converts lower case characters to upper case characters
+ * @str: string
+ * Return: upper case string
+ */
+
+char *string_toupper(char *str);
+
+/**
  * reverse_array - reverse the contents of an array
  * @a: an array
  * @n: number of elements in the array
