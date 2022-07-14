@@ -14,7 +14,6 @@ int str_len = 0;
 
 while (*(str + str_len))
 {
-
 str_len++;
 }
 
@@ -30,15 +29,15 @@ return (str_len);
 
 char *string_toupper(char *str)
 {
-  int i;
+int i;
 
-  for (i = 0; i < _strlen(str); i++)
-    {
-      if (str[i] >= 'a' && str[i] <= 'z')
-	{
-	  str[i] = str[i] - 32;
-	}
-    }
-  
-  return (str);
+for (i = 0; i < _strlen(str); i++)
+{
+if (str[i] >= 'a' && str[i] <= 'z')
+{
+str[i] = str[i] - 32;
+}
+}
+
+return (str);
 }
