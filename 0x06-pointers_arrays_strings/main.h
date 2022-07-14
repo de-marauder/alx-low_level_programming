@@ -2,12 +2,21 @@
 #define MAIN_H
 
 /**
+ * _strcmp - compares two strings
+ * @s1: first string
+ * @s2: second string
+ * Return: 0 if equal, -ve int if s1 < s2 and +ve int if s2 < s1
+ */
+
+int _strcmp(char *s1, char *s2);
+
+/**
  * _strncpy - a function that copies a string
  * @dest: array to be copied into
  * @src: array to be copied
  * @n: max numver of items to copy from @src into @dest
- * Return: copied string 
-*/
+ * Return: copied string
+ */
 
 char *_strncpy(char *dest, char *src, int n);
 
