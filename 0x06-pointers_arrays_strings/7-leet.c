@@ -13,7 +13,7 @@ int str_len = 0;
 
 char letters[] = {'a', 'A', 'e', 'E', 'o', 'O', 't', 'T', 'l', 'L'};
 char numbers[] = {'4', '4', '3', '3', '0', '0', '7', '7', '1', '1'};
-  
+
 while (str[str_len] != '\0')
 {
 str_len++;
