@@ -3,6 +3,15 @@
 
 
 /**
+ * leet - encodes a string in 1337 (LEET) format
+ * @str: string
+ * Return: encoded string
+ */
+
+char *leet(char *str);
+
+
+/**
  * cap_string - capitalizes first leter of every word
  * @str: string
  * Return: capitalized string
