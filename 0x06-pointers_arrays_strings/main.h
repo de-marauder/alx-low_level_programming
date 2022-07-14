@@ -1,6 +1,17 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+
+/**
+ * reverse_array - reverse the contents of an array
+ * @a: an array
+ * @n: number of elements in the array
+ * Return: void
+ */
+
+void reverse_array(int *a, int n);
+
+
 /**
  * _strcmp - compares two strings
  * @s1: first string
