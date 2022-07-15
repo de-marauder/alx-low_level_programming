@@ -50,14 +50,14 @@ return (counter);
 void print_number(int n)
 {
 int i;
-int n_digits = num_digits(n);
+int n_digits;
 
 if (n < 0)
 {
 n *= -1;
-n_digits = num_digits(n);
 _putchar('-');
 }
+n_digits  = num_digits(n);
 /* loop through number of digits and print digits */
 for (i = n_digits; i > 0; i--)
 {
