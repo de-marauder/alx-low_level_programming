@@ -3,6 +3,15 @@
 
 
 /**
+ * print_number - prints numbers to stdout
+ * @n: number
+ * Return: void
+ */
+
+void print_number(int n);
+
+
+/**
  * rot13 - rotates the alphabets 13 places to encode string
  * @str: string
  * Return: encoded string
@@ -86,5 +95,15 @@ char *_strncat(char *dest, char *src, int n);
  */
 
 char *_strcat(char *dest, char *src);
+
+
+/**
+ * _putchar - outputs a single character to stdout
+ * @c: character
+ * Return: 1 on succes, -1 on error, and errno is set.
+ */
+
+int _putchar(char c);
+
 
 #endif
