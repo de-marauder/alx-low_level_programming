@@ -3,6 +3,15 @@
 
 
 /**
+ * rot13 - rotates the alphabets 13 places to encode string
+ * @str: string
+ * Return: encoded string
+ */
+
+char *rot13(char *str);
+
+
+/**
  * leet - encodes a string in 1337 (LEET) format
  * @str: string
  * Return: encoded string
