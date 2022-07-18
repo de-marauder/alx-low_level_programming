@@ -27,5 +27,10 @@ break;
 }
 ptr = &s[i];
 
+if (i == s_len)
+{
+ ptr = '\0';
+}
+
 return (ptr);
 }
