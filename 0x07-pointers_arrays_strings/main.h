@@ -2,6 +2,16 @@
 #define MAIN_H
 
 /**
+ * _strchr - a function to locate a character in a string
+ * @s: a string
+ * @c: charater to be located
+ * Return: a pointer to the first occurence of @c
+ */
+
+char *_strchr(char *s, char c);
+
+
+/**
  * _memcpy - copies a memory area
  * @dest: destination memory location
  * @src: source memory location
