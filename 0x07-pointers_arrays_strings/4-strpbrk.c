@@ -34,6 +34,6 @@ return (ptr);
 }
 }
 }
-ptr = &s[s_len];
-return (ptr);
+
+return ('\0');
 }
