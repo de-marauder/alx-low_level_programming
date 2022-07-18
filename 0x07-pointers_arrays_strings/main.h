@@ -3,6 +3,16 @@
 
 
 /**
+ * _strpbrk - a function that searches a string for any of a set of bytes.
+ * @s: string to be searched
+ * @accept: list of characters to be searched for
+ * Return: a pointer to the first match in  @s or NULL if no match
+ */
+
+char *_strpbrk(char *s, char *accept);
+
+
+/**
  * _strspan - a functiona that gets the length of a prefix substring
  * @s: string
  * @accept: substring
