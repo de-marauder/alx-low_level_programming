@@ -1,6 +1,16 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+
+/**
+ * _strspan - a functiona that gets the length of a prefix substring
+ * @s: string
+ * @accept: substring
+ * Return: length of substring from @s that are in @accept
+ */
+
+unsigned int _strspn(char *s, char *accept);
+
 /**
  * _strchr - a function to locate a character in a string
  * @s: a string
