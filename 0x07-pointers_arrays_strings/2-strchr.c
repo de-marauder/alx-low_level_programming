@@ -22,15 +22,11 @@ for (i = 0; i < s_len; i++)
 {
 if (*(s + i) == c)
 {
-break;
-}
-}
 ptr = &s[i];
-
-if (i == s_len)
-{
-ptr = '\0';
+return (ptr);
+}
 }
 
-return (ptr);
+
+return ('\0');
 }
