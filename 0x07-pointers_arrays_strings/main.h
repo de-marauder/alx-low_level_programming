@@ -3,6 +3,16 @@
 
 
 /**
+ * _strstr - a function that locates a substring.
+ * @haystack: string to be searched
+ * @needle: substring to be found
+ * Return:  a pointer to the beginning of the substring, or NULL if not found.
+ */
+
+char *_strstr(char *haystack, char *needle);
+
+
+/**
  * _strpbrk - a function that searches a string for any of a set of bytes.
  * @s: string to be searched
  * @accept: list of characters to be searched for
@@ -20,6 +30,7 @@ char *_strpbrk(char *s, char *accept);
  */
 
 unsigned int _strspn(char *s, char *accept);
+
 
 /**
  * _strchr - a function to locate a character in a string
