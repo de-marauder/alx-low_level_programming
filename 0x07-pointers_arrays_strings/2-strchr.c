@@ -23,13 +23,10 @@ for (i = 0; i < s_len; i++)
 {
 if (*(s + i) == c)
 {
-ptr = &s[i];
 break;
 }
-else
-{
-ptr = '\0';
 }
-}
+ptr = &s[i];
+
 return (ptr);
 }

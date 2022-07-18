@@ -3,6 +3,17 @@
 
 
 /**
+ * infinite_add - adds two strings as though they were integers
+ * @n1: first string
+ * @n2: second stirng
+ * @r: buffer. will be used to store the result
+ * @size_r: integer
+ * Return: string containing sum of @n1 and @n2
+ */
+
+char *infinite_add(char *n1, char *n2, char *r, int size_r);
+
+/**
  * print_number - prints numbers to stdout
  * @n: number
  * Return: void
