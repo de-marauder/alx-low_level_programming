@@ -1,6 +1,15 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+/**
+ * set_string - a function that sets the value of a pointer to a char.
+ * @s: a double pointer
+ * @to: a string
+ * Return: void
+ */
+
+void set_string(char **s, char *to);
+
 
 /**
  * print_diagsums - prints the sum of the two diagonals of a square matrix of integers.
