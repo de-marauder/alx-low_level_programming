@@ -3,6 +3,24 @@
 
 
 /**
+ * _putchar - prints a character to stdout
+ * @c: character
+ * Return: void
+ */
+
+void _putchar(char c);
+
+
+/**
+ * print_chessboard - prints a chessboard
+ * @a: an array of pointers
+ * Return: void
+ */
+
+void print_chessboard(char (*a)[8]);
+
+
+/**
  * _strstr - a function that locates a substring.
  * @haystack: string to be searched
  * @needle: substring to be found
