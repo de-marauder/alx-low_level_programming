@@ -3,6 +3,16 @@
 
 
 /**
+ * print_diagsums - prints the sum of the two diagonals of a square matrix of integers.
+ * @a: array of integers
+ * @size: size of matrix
+ * Return: void
+ */
+
+void print_diagsums(int *a, int size);
+
+
+/**
  * _putchar - prints a character to stdout
  * @c: character
  * Return: void
