@@ -3,6 +3,15 @@
 
 
 /**
+ * _sqrt_recursion - calculates the square root of a given integer
+ * @n: integer
+ * Return: square root of @n
+ */
+
+int _sqrt_recursion(int n);
+
+
+/**
  * _pow_recursion - a power function
  * @x: base integer
  * @y: exponent integer
