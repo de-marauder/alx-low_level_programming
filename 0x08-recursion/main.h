@@ -3,6 +3,15 @@
 
 
 /**
+ * _print_rev_recursion - print a string in reverse using recursion
+ * @s: string
+ * Return: void
+ */
+
+void _print_rev_recursion(char *s);
+
+
+/**
   * _puts_recursive - puts character on stdout using recursion
   * @s: string
   * Return: void
