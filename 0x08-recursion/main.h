@@ -1,6 +1,16 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+
+/**
+ * factorial - calculate the factorial of an integer
+ * @n: integer
+ * Return: factorial of @n
+ */
+
+int factorial(int n);
+
+
 /**
  * _strlen_recursion - calculate the length of  string
  * @s: string
