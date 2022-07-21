@@ -3,6 +3,16 @@
 
 
 /**
+ * _pow_recursion - a power function
+ * @x: base integer
+ * @y: exponent integer
+ * Return: integer
+ */
+
+int _pow_recursion(int x, int y);
+
+
+/**
  * factorial - calculate the factorial of an integer
  * @n: integer
  * Return: factorial of @n
