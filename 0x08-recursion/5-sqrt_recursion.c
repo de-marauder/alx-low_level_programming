@@ -56,5 +56,5 @@ int _sqrt_recursion(int n)
 long no = n;
 long base = n;
 
-return (_sqrt(no / 2, base));
+return (_sqrt(no, base));
 }
